@@ -83,40 +83,9 @@ h3{
 }
 
 /*------------svg-----------------*/
-.canvas text{
-    fill:#fff;
-}
-.canvas .node rect{
-    stroke:rgb(50,50,50);
-}
-.canvas .leaf text{
-    fill:#fff;
-    font-size:10px;
-}
-
-.canvas .time-series .area{
-    fill:rgba(255,255,255,0.2);
-}
-.canvas .time-series .line{
-    stroke-width:2px;
+.canvas .country circle{
+    fill:rgb(80,80,80);
     stroke:white;
-    fill:none;
-}
-
-.canvas .time-series .axis text{
-    fill:#fff;
-    font-size:10px;
-}
-.canvas .time-series .axis path,
-.canvas .time-series .axis line{
-    stroke:#fff;
-    fill:none;
-}
-
-.canvas .slider path{
-    fill:#fff;
-}
-.canvas .slider text{
-    fill:rgb(50,50,50);
+    stroke-width:1.5px;
 }
 
